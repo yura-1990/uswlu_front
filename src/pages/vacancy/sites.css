@@ -1,0 +1,26 @@
+.btn {
+  border-radius: 8px;
+  font-family: var(--roboto);
+  display: inline-block;
+  font-size: 20px;
+}
+
+.btn-close {
+  box-shadow: none !important;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-family: var(--roboto);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+

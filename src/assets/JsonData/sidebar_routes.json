@@ -1,0 +1,139 @@
+[
+  {
+    "display_name": "Dashboard",
+    "route": "/",
+    "icon": "bx bx-category-alt"
+  },
+  {
+    "display_name": "News",
+    "route": "/news",
+    "icon": "bx bx-news"
+  },
+  {
+    "display_name": "University-Related Sites",
+    "icon": "bx bx-news",
+    "items": [
+      {
+        "display_name": "Info",
+        "route": "/info",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Sites",
+        "route": "/sites",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Partners",
+        "route": "/partners",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "University-sites",
+        "route": "/university-sites",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Double degree programs",
+        "route": "/double-degree-programs",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Vacancy",
+        "route": "/vacancy",
+        "icon": "bx bx-news"
+      }
+    ]
+  },
+  {
+    "display_name": "Faculties-Departments",
+    "icon": "bx bx-news",
+    "items": [
+      {
+        "display_name": "Departments",
+        "route": "/departments",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Faculty",
+        "route": "/faculty",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Sections",
+        "route": "/sections",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Employees",
+        "route": "/employees",
+        "icon": "bx bx-news"
+      }
+    ]
+  },
+  {
+    "display_name": "Virtual reception",
+    "icon": "bx bx-news",
+    "items": [
+      { "display_name": "Rectors", "route": "/rectors", "icon": "bx bx-news" },
+      {
+        "display_name": "Virtual-lobby",
+        "route": "/virtual-lobby",
+        "icon": "bx bx-news"
+      }
+    ]
+  },
+  {
+    "display_name": "Contacts",
+    "icon": "bx bx-news",
+    "items": [
+      { "display_name": "FAQ", "route": "/faq", "icon": "bx bx-news" },
+      {
+        "display_name": "Address",
+        "route": "/address",
+        "icon": "bx bx-news"
+      }
+    ]
+  },
+  {
+    "display_name": "Menu pages",
+    "icon": "bx bx-news",
+    "items": [
+      {
+        "display_name": "Admission",
+        "route": "/admission",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Prospective-students",
+        "route": "/prospective-students",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Activity",
+        "route": "/activity",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Documents",
+        "route": "/documents",
+        "icon": "bx bx-news"
+      },
+      {
+        "display_name": "Education docs",
+        "route": "/education-docs",
+        "icon": "bx bx-news"
+      }
+    ]
+  },
+  {
+    "display_name": "Gallery",
+    "route": "/gallery",
+    "icon": "bx bx-cog"
+  },
+  {
+    "display_name": "settings",
+    "route": "/settings",
+    "icon": "bx bx-cog"
+  }
+]

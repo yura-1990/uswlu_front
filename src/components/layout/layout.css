@@ -1,0 +1,18 @@
+.layout {
+  color: var(--txt-color);
+}
+
+.layout__content {
+  transition: 0.3s;
+  background-color: #fff;
+  min-height: 100vh;
+  padding-left: 80px;
+}
+/* .layout__content.active {
+  padding-left: var(--sidebar-width);
+  position: unset;
+} */
+
+.layout__content-main {
+  padding: 15px 30px;
+}

@@ -1,0 +1,27 @@
+.add-rector .form-control {
+  background-color: transparent;
+}
+
+.add-rector .form-control::placeholder {
+  color: white;
+}
+.user-image {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

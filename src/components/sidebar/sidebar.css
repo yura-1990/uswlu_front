@@ -1,0 +1,143 @@
+.sidebar {
+  min-width: var(--sidebar-width);
+  height: 85vh;
+  border-radius: 12px;
+  background: #E9ECEF;
+  box-shadow: var(--box-shadow);
+  user-select: none;
+  position: fixed;
+  overflow-y: scroll;
+  top: 50%;
+  transform: translate(-240px, -50%);
+  z-index: 1049;
+  transition: 0.3s;
+}
+
+.sidebar__logo {
+  font-family: var(--roboto);
+  font-size: 40px;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 20px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.icon-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar__logo > img {
+  height: 45px;
+}
+
+.sidebar__item {
+  cursor: pointer;
+}
+
+.sidebar__item a {
+  color: black;
+}
+
+.sidebar__item .item-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  margin: 0;
+  padding: 0;
+  background: #dfe2e6;
+}
+/* 
+.sidebar__item:hover .item-menu {
+  max-height: 1200px;
+} */
+.sidebar__item.active .item-menu {
+  max-height: 1200px;
+}
+
+.sidebar__item .item-menu li a {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 23px;
+  display: flex;
+  align-items: center;
+  color: #788195;
+  font-weight: 600;
+  transition: color 0.3s ease 0s;
+}
+
+.sidebar__item-inner {
+  padding: 10px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  transition: color 0.3s ease 0s;
+  color: #788195;
+}
+
+.sidebar__item-inner .icon,
+.sidebar__item .item-menu li a .icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  margin-left: 25px;
+}
+.sidebar__item .item-menu li a .icon {
+  background-color: #f1f1f1;
+}
+
+.sidebar__item-inner > span,
+.sidebar__item .item-menu li a > span {
+  text-transform: capitalize;
+}
+
+.sidebar__item-inner:hover,
+.sidebar__item .item-menu li a:hover {
+  color: #000;
+}
+
+.sidebar__item-inner.active {
+  color: #000;
+}
+.sidebar__item-inner svg {
+  transition: 0.3s;
+}
+.sidebar__item-inner.active svg {
+  transform: rotateZ(-90deg);
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Track */
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.sidebar:hover {
+  transform: translate(20px, -50%);
+}
+
+.sidebar:hover .sidebar__item .item-menu li a {
+  padding: 10px 30px;
+}
+.sidebar:hover .sidebar__item-inner {
+  padding: 10px 30px;
+}

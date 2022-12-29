@@ -1,0 +1,11 @@
+[
+  {
+    "icon": "bx bx-cog",
+    "content": "Settings",
+    "path": "/settings"
+  },
+  {
+    "icon": "bx bx-log-out-circle bx-rotate-180",
+    "content": "Logout"
+  }
+]
